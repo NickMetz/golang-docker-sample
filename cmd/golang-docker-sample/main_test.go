@@ -6,7 +6,7 @@ import (
 )
 
 func Test_RunMain(t *testing.T) {
-    main()
+	main()
 }
 
 func Test_RandomNumber(t *testing.T) {

@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.com/NickMetz/golang-docker-sample.svg?branch=master)](https://travis-ci.com/NickMetz/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/NickMetz/golang-docker-sample)](https://goreportcard.com/report/github.com/NickMetz/golang-docker-sample)
 [![Coverage Status](https://coveralls.io/repos/github/NickMetz/golang-docker-sample/badge.svg?branch=master)](https://coveralls.io/github/NickMetz/golang-docker-sample?branch=master)
+[![Docker Pulls](https://img.shields.io/docker/pulls/nmetz/golang-docker-sample)](https://hub.docker.com/repository/docker/nmetz/golang-docker-sample)
 
 # Golang Docker Sample
 
