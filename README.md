@@ -24,3 +24,11 @@ git clone https://github.com/NickMetz/golang-docker-sample
 # Run go Build
 go build cmd/golang-docker-sample/main.go
 ```
+## Environment Variables
+
+The following environment variables configure the Golang Docker Sample:
+
+| Name | Description | Default |
+|------|-------------|:-----:|
+| `PARALLEL_JOBS` | Define how many jobs should run in parallel. | `5` |
+| `LIMIT_JOBS` | Limit how many jobs should be executed in total. Default to `0` for infinity job execution. | `0` |
