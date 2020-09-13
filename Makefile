@@ -1,4 +1,4 @@
-VERSION := 0.1.0
+VERSION := 0.2.1
 APP_NAME := golang-docker-sample
 
 # Docker image name for this project

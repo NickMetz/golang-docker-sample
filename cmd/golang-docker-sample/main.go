@@ -60,7 +60,8 @@ func concurrentJobs(jobsQueueSize int, limitJobs int) {
 				time.Sleep(5 * time.Second)
 			}
 			fmt.Println("All jobs processed! Good bye!")
-			os.Exit(0)
+			close(jobQueue)
+			return
 		}
 		jobQueue <- struct{}{}
 		countJobs++
