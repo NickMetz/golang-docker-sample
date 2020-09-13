@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/NickMetz/golang-docker-sample.svg?branch=master)](https://travis-ci.com/NickMetz/)
+[![Coverage Status](https://coveralls.io/repos/github/NickMetz/golang-docker-sample/badge.svg?branch=master)](https://coveralls.io/github/NickMetz/golang-docker-sample?branch=master)
 
 # Golang Docker Sample
 
