@@ -1,2 +1,3 @@
 .vscode
 ./golang-docker-sample
+coverage.out

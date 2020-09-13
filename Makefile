@@ -12,10 +12,12 @@ COMMIT=$(shell git rev-parse HEAD)
 
 .PHONY: test
 test:
-	go test -v ./cmd/golang-docker-sample/
+	go test ./cmd/golang-docker-sample/ -v -covermode=count -coverprofile=coverage.out
+	$(HOME)/gopath/bin/goveralls -coverprofile=coverage.out -service=travis-ci
 
 .PHONY: build
 build:
+	echo "$(DOCKER_PASSWORD)" | docker login -u "$(DOCKER_USERNAME)" --password-stdin
 	docker build \
 	    -t $(APP_NAME) \
 		-t $(REPOSITORY):latest \
